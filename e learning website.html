@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>E-learning website</title>
+
+    <link rel="icon" href="./favicon.ico">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700;800;900&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS.css">
+
+
+
+</head>
+
+<body>
+
+
+
+    <section id="title" class="container-fluid">
+
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#title"><i class="fa-brands fa-leanpub fa-x"></i> EDU-LEARN
+
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#title">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link role-link" href="#top-categories">CATEGORIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">FEATURES</a>
+                    </li>
+
+                </ul>
+
+                <nav class="navbar-search navbar-light ">
+
+                    <button class="btn btn-dark "
+                        onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+                    <!-- The Modal -->
+                    <div id="id01" class="modal">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                            title="Close Modal">&times;</span>
+
+                        <!-- Modal Content -->
+                        <div class="modal-content" style="background-color:#f1f1f1">
+                            <form id="form" method="post">
+
+
+
+
+                                <label id="label">User Name</label>
+
+                                <input type="text" name="uname" placeholder="User Name"><br>
+
+                                <label id="label">Password &nbsp;</label>
+
+                                <input type="password" name="password" placeholder="Password"><br>
+
+                                <center><button class="btn w-50 mx-auto btn-dark" type="submit">Login</button>
+
+                                </center>
+                                <div class="container" style="background-color:#f1f1f1">
+
+                                    <span class="psw">Don't remember your password:<a href="#">Forget
+                                            password?</a></span>
+                                    </br>
+                                    </br>
+                                    <span class="psw">Don't have an account:<a href="./register.html">Register
+                                            Now</a></span><br>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+
+
+        </nav>
+        </div>
+        </nav>
+
+    </section>
+
+
+    <!--image-->
+
+    <section id="image-section">
+        <div class="image-container">
+            <div class="text-image">
+                <h2>Online learning is not<br> the big thing,<br> it is the now big thing.</h2>
+                <button class="btn btn2 btn-dark">Get Started</button><br>
+                <br>
+                <div class="input-group">
+                    <div class="form-outline">
+                        <input id="search-input" type="search" id="form1" placeholder="search" class="form-control" />
+                    </div>
+                    <button id="search-button" type="button" class="btn btn-dark">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 
+    top categories -->
+
+    <section id="top-categories">
+        <h2 class="h11">TOP CATEGORIES</h2>
+        <div class="category-section">
+            <div class="row">
+
+                <div class="col-3 category">
+                    <img src="./florian-olivo-4hbJ-eymZ1o-unsplash.jpg" class="card-img-top" alt="design">
+                    <a href="./design.html">
+                        <h5 class="card-title">Design</h5>
+                    </a>
+                </div>
+                <div class="col-3 category">
+                    <img src="./stephen-phillips-hostreviews-co-uk-shr_Xn8S8QU-unsplash.jpg" class="card-img-top"
+                        alt="It and software">
+                    <br>
+                    <a href="">
+                        <h5 class="card-title">It and Software</h5>
+                    </a>
+                </div>
+
+                <div class="col-3 category">
+
+                    <img src="./lum3n--RBuQ2PK_L8-unsplash.jpg" class="card-img-top" alt="Development">
+
+                    <a href="">
+                        <h5 class="card-title">Development</h5>
+                    </a>
+                </div>
+                <div class="col-3 category">
+                    <img src="./web-4861605__340.webp" class="card-img-top" alt="Marketing"><br>
+                    <a href="">
+                        <h5 class="card-title">Marketing</h5>
+                    </a>
+                </div>
+
+                <div class="col-3 category">
+                    <img src="./entrepreneur-1340649__340.webp" class="card-img-top" alt="design">
+                    <a href="">
+                        <h5 class="card-title">Data Analytics</h5>
+                    </a>
+                </div>
+                <div class="col-3 category">
+                    <img src="./digital-marketing-1725340__480.webp" class="card-img-top" alt="It and software">
+                    <br>
+                    <a href="">
+                        <h5 class="card-title">Buisness</h5>
+                    </a>
+                </div>
+
+                <div class="col-3 category">
+
+                    <img src="./interface-3614766__340.webp" class="card-img-top" alt="Development">
+
+                    <a href="design.html">
+                        <h5 class="card-title">Computer Science</h5>
+                    </a>
+                </div>
+                <div class="col-3 category">
+                    <img src="./web-design-3411373__340.webp" class="card-img-top" alt="Marketing"><br>
+                    <a href="">
+                        <h5 class="card-title">Database Tutorials</h5>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- features -->
+    <section id="features">
+        <h2 class="h11">AWESOME FEATURES</h2>
+
+        <div class="features-section">
+            <div class="row">
+                <div class=" col-4-lg feature-box">
+                    <i class="fa-solid fa-user-group icons fa-4x"></i>
+                    <h3 class="h31">Online courses<br> from experts</h3>
+
+                </div>
+                <div class="col-4-lg feature-box">
+                    <i class="fa-solid fa-book-open icons fa-4x"></i>
+                    <h3 class="h31">Over 100+ high<br> quality topics</h3>
+
+                </div>
+                <div class="col-4-lg feature-box">
+                    <i class="fa-brands fa-buffer icons fa-4x"></i>
+                    <h3 class="h31">Instant career<br> advancement</h3>
+                </div>
+                <div class="col-4-lg feature-box">
+                    <i class="fa-regular fa-circle-play icons fa-4x"></i>
+                    <h3 class="h31">Remote approach to<br> various classes</h3>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+    <!--footer section-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h5><i class="fa fa-leanpub"></i> EDU-LEARN.</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="">HOME</a></li>
+                                <li><a href="">Features</a></li>
+                                <li><a href="">Categories</a></li>
+                                <li><a href="">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="">Courses</a></li>
+                                <li><a href="">Support</a></li>
+                                <li><a href="">Legal Terms</a></li>
+                                <li><a href="">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="nav">
+                        <li class="nav-item"><a href="" class="nav-link pl-0"><i class="fa fa-facebook fa-lg"></i></a>
+                        </li>
+                        <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a></li>
+                        <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-github fa-lg"></i></a></li>
+                        <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a></li>
+                    </ul>
+                    <br>
+                </div>
+                <div class="col-md-2">
+                    <h5 class="text-md-right">Contact Us</h5>
+                    <hr>
+                </div>
+                <div class="col-md-5">
+                    <form>
+                        <fieldset class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
+                        </fieldset>
+                        <fieldset class="form-group text-xs-right">
+                            <button type="button" class="btn btn-secondary-outline mx-auto w-50 btn-lg">Send</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/7a1427a19c.js" crossorigin="anonymous"></script>
+
+    <script src="./javascript.js"></script>
+</body>
+
+</html>

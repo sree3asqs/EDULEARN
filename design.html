@@ -1,0 +1,538 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>design page</title>
+
+  <link rel="icon" href="./favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="./swiper-bundle.min.css" />
+
+  <script src="https://kit.fontawesome.com/7a1427a19c.js" crossorigin="anonymous"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700;800;900&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .checked {
+      color: orange;
+    }
+
+    #sidebar {
+      width: 285px;
+      position: relative;
+      top: 0;
+      float: left;
+      bottom: 0;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .swiper-paging {
+      padding-top: 10%;
+    }
+
+    .swiper-navbtn {
+      color: #000;
+      transition: color 0.3s ease;
+    }
+
+    .swiper-navbtn:hover {
+      color: darkslategray;
+    }
+
+    .swiper-navbtn::after {
+      font-size: 40px;
+    }
+
+    .swiper-button-next {
+      right: 0;
+    }
+
+    .swiper-button-prev {
+      padding-left: 2%;
+    }
+
+    nav ul {
+      position: relative;
+      list-style-type: none;
+    }
+
+
+    .topic {
+
+      width: 197px;
+      padding-left: 10px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      padding-right: 10px;
+    }
+
+    nav ul li a {
+      display: flex;
+      align-items: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.15rem;
+      text-decoration: none;
+      text-transform: capitalize;
+      color: #000;
+      padding: 2px 10px;
+      height: 50px;
+      transition: 0.5s ease;
+      border-radius: 0 15px;
+    }
+
+    nav ul li a:hover {
+      background: rgba(0, 0, 0, 0.7);
+      color: #fff;
+    }
+
+    .main-content .swiper {
+      width: 100%;
+
+      position: relative;
+      
+    }
+
+    .card-instructors {
+      width: 100px;
+      margin: 20px 30px;
+      padding-left: 40px;
+      display: grid;
+      grid-template-columns: 275px 275px 275px;
+      grid-gap: 50px;
+
+
+    }
+
+    .cards {
+
+      box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .content {
+      text-align: center;
+      padding: 10px;
+    }
+
+    .content h2 {
+      margin-top: 5px;
+      letter-spacing: 1.5px;
+      color: #333;
+    }
+
+    .content h3 {
+      font-size: 17px;
+      color: #5c5c5c;
+
+    }
+
+    .content p {
+
+      color: #5c5c5c;
+    }
+
+    .content a {
+
+      text-decoration: none;
+      display: inline-block;
+      background-color: #d9563f;
+      color: #fff;
+      font-size: 17px;
+      padding: 5px 18px;
+      border-radius: 40px;
+      letter-spacing: 1.5px;
+    }
+
+    .content a:hover {
+      background-color: #db7d7d;
+      transition: 0.2s ease;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 290px;
+      margin-top: 15px;
+
+      text-align: center;
+      font-family: arial;
+      display: inline-block;
+      padding: 3% 4% 3%;
+    }
+
+    .card button {
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+
+   
+
+    .card button:hover {
+      opacity: 0.7;
+    }
+
+    #title {
+      background-color: #FFF6EA;
+
+    }
+
+    .navbar-search {
+      padding: 2% 5% 2% 5%;
+    }
+
+    .navbar-brand {
+      font-family: "ubuntu-bold";
+      font-size: 1.5rem;
+
+    }
+
+    .nav-items {
+      padding: 0 18px;
+    }
+
+    .nav-link {
+      font-size: 1.2rem;
+      font-family: "montserrat-light";
+
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+
+  <section id="sidebar">
+    <nav>
+      
+      <ul>
+        <li><a href="./e learning website.html"><i class="fa-brands fa-leanpub fa-x"></i>EDU-LEARN</a></li>
+        <li><a href="./design.html">Graphic Design</a>
+          <ul>
+            <li><a href="./grapic.html">designers-Masking</a>
+            <li><a href="#">Anatomy</a>
+            </br>
+            <li><a href="#">Graphic design masterclass</a></br>
+            <li><a href="#">Photoshop</a>
+            <li><a href="#">More Courses</a></br>
+          </ul>
+        </li>
+        <li><a href="./design.html">Web Design</a>
+          <ul>
+            <li><a href="#">HTML and CSS.</a>
+            <li><a href="#">Master in photoshop</a></br>
+            <li><a href="#">Wordpress with bootstrap</a></br>
+            <li><a href="#">Responsive web-design</a></br>
+            <li><a href="#">More Courses</a></br>
+          </ul>
+        </li>
+        <li><a href="./design.html">3D Animation</a></br>
+          <ul>
+            <li><a href="#">Web-design with HTML and CSS.</a></br>
+            <li><a href="#">Master web-design in photoshop</a></br>
+            <li><a href="#">Wordpress with bootstrap</a></br>
+            <li><a href="#">Responsive web-design essential</a></br></br>
+            <li><a href="#">More courses in 3D Animation</a>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+
+
+  </section>
+
+  <div class="main-content swiper mySwiper">
+    <h2 style="text-align: center;">Popular Courses To Get Started</h2>
+
+    </br>
+    </br>
+    <div class="graphicdesign ">
+
+      <div class="graphic-design swiper-wrapper ">
+        <div class="card swiper-slide" style="padding-bottom: 35px;">
+          <img src="./40c75f60-73ee-4088-a278-9c8822144366.jpg" alt="graphic-design" style="width:100%">
+          <h3>Essential skills for designers-Masking</h3>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <p>12 hours
+          </p>
+
+          <p><button> Get Started </button></p>
+        </div>
+        <div class="card  swiper-slide" style="padding-top: 40px; padding-bottom: 10px;">
+          <img src="./448-252.webp" alt="3d&animation" style="width:100%">
+          <h3>Art fundamentals-painting & sketching.</h3>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <p>12 hours
+          </p>
+
+          <p><button>Get Started</button></p>
+        </div>
+        <div class="card  swiper-slide" style="padding-top:55px">
+          <img src="./222122_ad46_6-750x405.jpg" alt="3d&animation" style="width:100%">
+          <h3>Master sketchup- A definitive guide.</h3>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <p>12 hours
+          </p>
+
+          <p><button>Get Started</button></p>
+        </div>
+
+
+        <div class="card  swiper-slide">
+          <img src="./40c75f60-73ee-4088-a278-9c8822144366.jpg" alt="graphic-design" style="width:100%">
+          <h3>Essential skills for designers-Masking</h3>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <p>12 hours
+          </p>
+
+          <p><button>Get Started</button></p>
+        </div>
+
+        <div class="card  swiper-slide" style="padding-top: 40px; padding-bottom: 10px;">
+          <img src="./448-252.webp" alt="3d&animation" style="width:100%">
+          <h3>Art fundamentals-painting & sketching.</h3>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <p>12 hours
+          </p>
+
+          <p><button>Get Started</button></p>
+        </div>
+        <div class="card  swiper-slide"style="padding-top: 40px; padding-bottom: 10px;">
+          <img src="./e593cea9-0959-4c3a-baee-f9d7307e96e1.jpg" alt="3d&animation" style="width:100%">
+          <h3>Art fundamentals-painting & sketching.</h3>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <p>12 hours
+          </p>
+
+          <p><button>Get Started</button></p>
+        </div>
+        <div class="card  swiper-slide" style="padding-top: 40px; padding-bottom: 10px;">
+          <img src="./how-to-get-started-with-wordpress_fpyk.jpg" alt="3d&animation" style="width:100%">
+          <h3>Art fundamentals-painting & sketching.</h3>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <p>12 hours
+          </p>
+
+          <p><button>Get Started</button></p>
+        </div>
+        <div class="card  swiper-slide" style="padding-top: 40px; padding-bottom: 10px;">
+          <img src="./448-252.webp" alt="3d&animation" style="width:100%">
+          <h3>Art fundamentals-painting & sketching.</h3>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <p>12 hours
+          </p>
+
+          <p><button>Get Started</button></p>
+        </div>
+        <div class="card  swiper-slide"style="padding-top: 40px; padding-bottom: 10px;">
+          <img src="./222122_ad46_6-750x405.jpg" alt="3d&animation" style="width:100%">
+          <h3>Art fundamentals-painting & sketching.</h3>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <p>12 hours
+          </p>
+
+          <p><button>Get Started</button></p>
+        </div>
+        <div class="card  swiper-slide"style="padding-top: 40px; padding-bottom: 10px;">
+          <img src="./448-252.webp" alt="3d&animation" style="width:100%">
+          <h3>Art fundamentals-painting & sketching.</h3>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <p>12 hours
+          </p>
+
+          <p><button>Get Started</button></p>
+        </div>
+        <div class="card  swiper-slide"style="padding-top: 40px; padding-bottom: 10px;">
+          <img src="./how-to-get-started-with-wordpress_fpyk.jpg" alt="3d&animation" style="width:100%">
+          <h3>Art fundamentals-painting & sketching.</h3>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <p>12 hours
+          </p>
+
+          <p><button>Get Started</button></p>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="swiper-button-next swiper-navbtn"></div>
+    <div class="swiper-button-prev swiper-navbtn"></div>
+
+    <div class="swiper-pagination swiper-paging"></div>
+
+  </div>
+
+  </br>
+
+  </br>
+  <div class="main-content">
+    <h2 style="text-align: center;">Popular Topics</h2>
+    </br>
+    
+    <div class="container-topics">
+      <div class="row row-cols-3" style="padding-left: 20px;">
+        <div class="col" >
+          <div class="p-6 topic border" style="background: #e0e0e0;">Graphic design proposal</div>
+        </div>
+        <div class="col">
+          <div class="p-6  topic border" style="background: #e0e0e0;">Graphic design invoice</div>
+        </div>
+        <div class="col" style="padding-bottom: 15px;">
+          <div class="p-6 topic border" style="background: #e0e0e0;">Photoshop design</div>
+        </div>
+        <div class="col" style="padding-bottom: 15px;">
+          <div class="p-6  topic border " style="background: #e0e0e0;">One-page website</div>
+        </div>
+        <div class="col">
+          <div class="p-6  topic border " style="background: #e0e0e0;">2D & 3D mashup</div>
+        </div>
+        <div class="col">
+          <div class="p-6  topic border" style="background: #e0e0e0;">Animation design</div>
+        </div>
+        <div class="col">
+          <div class="p-6  topic border" style="background: #e0e0e0;">Product design</div>
+        </div>
+        <div class="col">
+          <div class="p-6 topic border" style="background: #e0e0e0;">Branding design</div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  </br>
+  <div class="main-content">
+    <h2 style="text-align: center;">Our Instructors</h2>
+    </br>
+    <div class="card-instructors">
+      <div class="cards">
+        <img src="./istockphoto-1210359011-612x612.jpg">
+        <div class="content">
+          <h2>James</h2>
+          <h3>Web design</h3>
+          <p>Lorem ispum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="" class="button">Read More</a>
+        </div>
+
+      </div>
+      <div class="cards">
+        <img src="./images (4).jpg">
+        <div class="content">
+          <h2>Emma</h2>
+          <h3>Graphic design</h3>
+          <p>Lorem ispum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="" class="button">Read More</a>
+        </div>
+
+      </div>
+      <div class="cards">
+        <img src="./istockphoto-1213513544-612x612.jpg">
+        <div class="content">
+          <h2>Thomas</h2>
+          <h3>3D-Animation</h3>
+          <p>Lorem ispum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="" class="button">Read More</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="./swiper-bundle.min.js"></script>
+<script src="./swipper.js"></script>
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+</html>

@@ -1,0 +1,357 @@
+body {
+  font-family: "montserrat";
+}
+
+#title {
+  background-color:#FFF6EA;
+
+  }
+
+.navbar-search {
+  padding: 2% 5% 2% 5%;
+}
+
+.navbar-brand {
+  font-family: "ubuntu-bold";
+  font-size: 1.5rem;
+}
+
+.nav-items {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "montserrat-light";
+
+}
+
+
+.image-container {
+background-image: url(./jess-bailey-q10VITrVYUM-unsplash.jpg);
+height:100vh;
+background-size: cover;
+display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ 
+
+.text-image {
+  color: rgb(0, 0, 0);
+  font-family: "ubuntu-bold";
+  font-size: 1.5rem;
+}
+
+.button1{
+
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#top-categories{
+  background-color: #fff;
+  padding-top:5%;
+}
+
+.h11{
+  color: rgb(0, 0, 0);
+  font-family:serif;
+  font-size: 1.5rem;
+  text-align:center;
+} 
+#top-categories{
+  padding:3% 10% 3% 10%;
+  margin-top: 2%;
+  text-align: center;
+}
+.category{
+  font-family: "montserrat-bold";
+  text-align: center;
+  padding:4%;
+  background-color: #fff;
+}
+.card-img-top{
+  border-radius:20%;
+  width:100%;
+}
+.card-title{
+  text-align: center;
+  color:blue;
+  font-family:"ubuntu-bold";
+  font-size: larger;
+}
+#features{
+  background-color:#F7E9D7;
+  padding:3% 10% 3% 10%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+
+.feature-box {
+  font-family: "montserrat-bold";
+  text-align: center;
+  padding:4%;
+
+}
+
+.btn2{
+  width:40%;
+
+}
+.input-group{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#search-button{
+ padding-top: 0%;
+  width:20%;
+}
+
+
+.form {
+
+  width: 1000px;
+
+  border: 3px solid rgb(179, 119, 119);
+
+  padding: 20px;
+
+  background: rgb(255, 197, 197);
+
+  border-radius: 20px;
+
+}
+
+
+
+.inp {
+
+  display: block;
+
+  border: 2px solid #ccc;
+
+  width: 75%;
+
+  padding: 10px;
+
+  margin: 10px auto;
+
+  border-radius: 5px;
+
+}
+
+.label {
+
+  color: #888;
+
+  font-size: 18px;
+
+  padding: 10px;
+
+}
+
+.sub {
+
+  
+
+  background: rgb(163, 240, 255);
+
+  padding: 10px 15px;
+
+  color: #fff;
+
+  border-radius: 5px;
+
+  margin-right: 10px;
+
+  border: none;
+
+}
+
+.sub:hover{
+
+  opacity: .10;
+
+}
+
+.error {
+
+
+
+ color: #0c0101;
+
+ padding: 10px;
+
+ width: 95%;
+
+ border-radius: 5px;
+
+ margin: 20px auto;
+
+}
+
+/* 
+.btn3{
+  width:30%;
+
+}
+
+
+.form-control{
+  width:100%;
+  
+} */
+
+.icons {
+  color: rgb(25, 1, 92);
+  margin-bottom: 1rem;
+}
+
+.icons:hover {
+  color: rgb(0, 0, 0);
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 80px;
+  }
+
+
+.container{
+  font-family: "ubuntu-bold";
+}
+
+input[type=text], input[type=password] {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px auto;
+  border: 1px solid #888;
+  width: 50%;
+  
+}
+
+.close{
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover, .color:focus{
+color:gray;
+cursor: pointer;
+}
+
+span.psw {
+  float: left;
+  padding-top: 16px;
+}
+
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #4d4c4c;
+}
+
+button {
+  background-color: #474747;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0px;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+}
+
+
+
+
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
+
+
+
+.footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+}
+
+.footer a {
+  color: #999;
+  text-decoration:none;
+}
+
+.footer a:hover, .footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+.footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+
+
+
+.data{
+  display:none;
+}
+
+.g-signin2{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+
